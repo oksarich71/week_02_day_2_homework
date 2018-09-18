@@ -11,4 +11,10 @@ class Bear
   def stomach_length()
     return @stomach.length()
   end
+
+  def catches_fish(fish)
+    @stomach << fish
+  end
+
+
 end
